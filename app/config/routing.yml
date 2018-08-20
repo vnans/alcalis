@@ -1,0 +1,5 @@
+alcaliswebsite:
+    resource: "@AlcaliswebsiteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
