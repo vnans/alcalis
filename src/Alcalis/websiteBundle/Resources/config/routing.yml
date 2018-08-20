@@ -1,0 +1,51 @@
+alcaliswebsite_home:
+    path:     /
+    defaults: { _controller: AlcaliswebsiteBundle:vitrine:index } 
+
+Alcaliswebsite_index:
+    path:    /index 
+    defaults: {_controller: AlcaliswebsiteBundle:vitrine:accueil }
+
+alcaliswebsite_home2:
+    path:     /accueil
+    defaults: { _controller: AlcaliswebsiteBundle:vitrine:index } 
+
+Alcaliswebsite_atconnectworld:
+    path:    /atconnectworld 
+    defaults: {_controller: AlcaliswebsiteBundle:vitrine:atconnectworld }
+
+Alcaliswebsite_Cellschool:
+    path:    /Cellschool 
+    defaults: {_controller: AlcaliswebsiteBundle:vitrine:Cellschool }
+
+
+Alcaliswebsite_packweb:
+    path:    /packweb 
+    defaults: {_controller: AlcaliswebsiteBundle:vitrine:packweb }
+
+Alcaliswebsite_presentation :
+    path:    /presentation 
+    defaults: {_controller: AlcaliswebsiteBundle:vitrine:presentation  }
+
+Alcaliswebsite_reference :
+    path:    /reference 
+    defaults: {_controller: AlcaliswebsiteBundle:vitrine:reference  }
+
+Alcaliswebsite_securite :
+    path:    /securite 
+    defaults: {_controller: AlcaliswebsiteBundle:vitrine:securite  }
+
+Alcaliswebsite_services :
+    path:    /services 
+    defaults: {_controller: AlcaliswebsiteBundle:vitrine:services  }
+
+Alcaliswebsite_touslesservices :
+    path:    /touslesservices 
+    defaults: {_controller: AlcaliswebsiteBundle:vitrine:touslesservices  }
+
+Alcaliswebsite_contact:
+    path:    /contact 
+    defaults: {_controller: AlcaliswebsiteBundle:vitrine:contact }
+
+ 
+ 
